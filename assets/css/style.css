@@ -18,6 +18,30 @@
   src: url("assets/fonts/engebrechtre rg.ttf");
 }
 
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "engebrechtre", sans-serif;
+  color: #261d19;
+}
+
+a {
+  color: #85b0be;
+}
+
+a:hover {
+  color: #a6c6d0;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "engebrechtre", sans-serif;
+}
+
+/* Styling HR elements  */
+
 hr {
 	border-top: 1px solid #912908;
   text-align: center;
@@ -40,24 +64,6 @@ hr:after {
 .hr {
   background: transparent;
   height: 0px;
-}
-
-body {
-  font-family: "engebrechtre", sans-serif;
-  color: #261d19;
-}
-
-a {
-  color: #85b0be;
-}
-
-a:hover {
-  color: #a6c6d0;
-  text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "engebrechtre", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1139,8 +1145,8 @@ section {
   border: 1px solid #912908;
 }
 
-::placeholder {
-  color: #aaaaaa;
+.form-group::placeholder {
+  color: black;
 }
 
 .contact .php-email-form .validate {
