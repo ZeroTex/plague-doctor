@@ -84,15 +84,16 @@ hr:after {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  border-radius: 4px;
-  background: #85b0be;
-  color: #fff;
+  /* border-radius: 4px; */
+  border: 1px solid #912908;
+  background: #936d3b;
+  color: #912908;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #6a9fb0;
-  color: #fff;
+  background: #912908;
+  color: #936d3b;
 }
 
 /*--------------------------------------------------------------
@@ -1141,12 +1142,43 @@ section {
 }
 
 .form-control:focus {
-  background: #966d36;
+  background: #912908;
   border: 1px solid #912908;
+  color: #936d3b !important;
 }
 
-.form-group::placeholder {
-  color: black;
+/* Placeholder fix for all browsers */
+
+:focus::-webkit-input-placeholder {
+  color:#936d3b !important;
+}
+
+:focus::-moz-placeholder {
+  color:#936d3b !important;
+}
+
+:focus::-ms-placeholder {
+  color:#936d3b !important;
+}
+
+:focus::placeholder {
+  color:#936d3b !important;
+}
+
+::-webkit-input-placeholder {
+  color:#936d3b !important;
+}
+
+::-moz-placeholder {
+  color:#912908 !important;
+}
+
+::-ms-placeholder {
+  color:#912908 !important;
+}
+
+::placeholder {
+  color:#912908 !important;
 }
 
 .contact .php-email-form .validate {
@@ -1210,16 +1242,17 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #85b0be;
-  border: 0;
+  background: #936d3b;
+  border: 1px solid #912908;
   padding: 10px 24px;
-  color: #fff;
+  color: #052c3f;
   transition: 0.4s;
-  border-radius: 4px;
+  /* border-radius: 4px; */
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #6a9fb0;
+  background: #912908;
+  color: #936d3b;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1336,10 +1369,13 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: linear-gradient( rgba(0,0,0,0.3), rgba(0, 0, 0, 0.3) ), url("../img/footer.png") top center;;
+  /* background-size: cover; */
   color: #fff;
   font-size: 14px;
   position: relative;
+  width: 100%;
+  height: 700px;
 }
 
 #footer::before {
@@ -1363,7 +1399,7 @@ section {
 #footer .footer-top h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #715634;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding-bottom: 0;
@@ -1375,6 +1411,7 @@ section {
   font-style: italic;
   margin: 30px 0 0 0;
   padding: 0;
+  color: #8c6d46;
 }
 
 #footer .footer-top .footer-newsletter {
@@ -1407,15 +1444,17 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #85b0be;
-  color: #fff;
+  background: #936d3b;
+  color: #052c3f;
   transition: 0.3s;
-  border-radius: 0 4px 4px 0;
+  /* border-radius: 0 4px 4px 0; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #912908;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #6a9fb0;
+  background: #912908;
+  color: #936d3b;
 }
 
 #footer .footer-top .social-links {
@@ -1425,21 +1464,22 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #85b0be;
-  color: #fff;
+  background: transparent;
+  color: #912908;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   text-align: center;
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  border: 1px solid #912908;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #649aac;
-  color: #fff;
+  background: #912908;
+  color: #936d3b;
   text-decoration: none;
 }
 
