@@ -117,6 +117,7 @@ hr:after {
   z-index: 997;
   transition: all 0.5s;
   background: #052c3f;
+  width: 100%;
 }
 
 #header.header-transparent {
