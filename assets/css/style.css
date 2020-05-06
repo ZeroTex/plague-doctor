@@ -134,7 +134,7 @@ hr:after {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 75px;
 }
 
 @media (max-width: 768px) {
