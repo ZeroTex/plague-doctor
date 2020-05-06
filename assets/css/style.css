@@ -66,6 +66,9 @@ hr:after {
   height: 0px;
 }
 
+section {
+  height: 100vh;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -368,7 +371,7 @@ hr:after {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7) ), url("../img/hero-bg-2.png") top center;
   background-size: cover;
   position: relative;
@@ -634,7 +637,7 @@ section {
 }
 
 .featured .btn {
-  border-radius: 4px;
+  border-radius: 0px;
   padding: 4px 30px 6px 30px;
   border: 2px solid #912908;
   color: #052c3f;
@@ -1045,10 +1048,6 @@ section {
   background-image: radial-gradient(circle, #a86e12, #a36e1f, #9e6e2a, #986d33, #936d3b, #936d3b, #936d3b, #936d3b, #986d33, #9e6e2a, #a36e1f, #a86e12);
 }
 
-.faq {
-
-}
-
 .faq .faq-item {
   margin-bottom: 40px;
 }
@@ -1080,7 +1079,7 @@ section {
 --------------------------------------------------------------*/
 #contact {
   background-image: radial-gradient(circle, #a86e12, #a36e1f, #9e6e2a, #986d33, #936d3b, #936d3b, #936d3b, #936d3b, #986d33, #9e6e2a, #a36e1f, #a86e12);
-
+  height: auto;
 }
 
 .contact .info-wrap {
@@ -1166,7 +1165,7 @@ section {
 }
 
 ::-webkit-input-placeholder {
-  color:#936d3b !important;
+  color:#912908 !important;
 }
 
 ::-moz-placeholder {
