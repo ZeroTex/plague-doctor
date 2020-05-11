@@ -385,6 +385,7 @@ hr:after {
   background: linear-gradient( rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7) ), url("../img/hero-bg-2.png") top center;
   background-size: cover;
   position: relative;
+  text-transform: uppercase;
 }
 
 #hero:before {
@@ -547,6 +548,10 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.beer {
+  width: 260px;
 }
 
 /*--------------------------------------------------------------
