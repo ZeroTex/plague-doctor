@@ -964,11 +964,11 @@ section {
 }
 
 .team .member .description p {
-  font-size: 0.65em;
+  font-size: 0.75em;
 }
 
 .team .member:hover .description p {
-  font-size: 0.65em;
+  font-size: 0.75em;
 }
 
 .hidden-span {
