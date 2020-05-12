@@ -624,12 +624,18 @@ section {
 
 .featured img {
   border-radius: 0;
+  border-width: 1px 1px 0px 1px;
+  border-style: solid;
+  border-color: #912908;
+  padding: 20px;
 }
 
 .featured .card {
   border: 0;
   text-align: center;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  background: transparent;
 }
 
 .featured .card-body {
@@ -639,7 +645,7 @@ section {
   border: 1px solid #912908;
 }
 
-.featured .card-title a {
+.featured .card-title {
   font-weight: 600;
   font-size: 18px;
   color: #052c3f;
@@ -655,10 +661,6 @@ section {
 
 .featured .btn:hover {
   background-color: #912908;
-  color: #052c3f;
-}
-
-.featured h5 {
   color: #052c3f;
 }
 
