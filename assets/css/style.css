@@ -903,19 +903,19 @@ section {
   overflow: hidden;
 }
 
-.team .member .social {
+.team .member .description {
   position: absolute;
   left: 0;
   bottom: 0;
   right: 0;
-  height: 40px;
+  height: 100%;
   opacity: 0;
   transition: ease-in-out 0.3s;
   text-align: center;
-  background: rgba(145, 41, 8, 0.85);
+  background: rgba(145, 41, 8, 0.97);
 }
 
-.team .member .social a {
+.team .member .description a {
   transition: color 0.3s;
   color: #052c3f;
   margin: 0 10px;
@@ -923,11 +923,11 @@ section {
   display: inline-block;
 }
 
-.team .member .social a:hover {
+.team .member .description a:hover {
   color: #936d3b;
 }
 
-.team .member .social i {
+.team .member .description i {
   font-size: 18px;
   margin: 0 2px;
 }
@@ -959,8 +959,20 @@ section {
   color: #777777;
 }
 
-.team .member:hover .social {
+.team .member:hover .description {
   opacity: 1;
+}
+
+.team .member .description p {
+  font-size: 0.65em;
+}
+
+.team .member:hover .description p {
+  font-size: 0.65em;
+}
+
+.hidden-span {
+  visibility: hidden;
 }
 
 /*--------------------------------------------------------------
